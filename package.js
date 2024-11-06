@@ -14,7 +14,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('3.0');
+  api.versionsFrom('METEOR@2.4', 'METEOR@3.0-beta.0');
 
   api.use([
     'check',
